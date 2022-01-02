@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.container {
+    width: 1440px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.f, .fas, .fac, .fae, .fs, .fc, .fe, .fw, .fd {
+    display: flex;
+}
+
+.fas {
+    align-items: flex-start
+}
+
+.fac {
+    align-items: center
+}
+
+.fae {
+    align-items: flex-end
+}
+
+.fs {
+    justify-content: flex-start
+}
+
+.fc {
+    justify-content: center
+}
+
+.fe {
+    justify-content: flex-end
+}
+
+.fw {
+    justify-content: space-between
+}
+
+.fd {
+    flex-direction: column
+}
+
+.type {
+    margin: 20px;
+    border: 4px solid white;
+    color: white;
+    overflow: hidden;
+    width: 1000px;
+    height: 100px;
+}
+.type a{
+    height: 100%;
+}
+.type button {
+    font-size: xxx-large;
+    background-color: #1a1b1e;
+    border-left: white 4px solid;
+    color: white;
+    width: 70px;
+    height: 100%;
+}
+
+.typing {
+    animation-name: TypingCursor;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    font-size: xxx-large;
+}
+
+.main_text {
+    margin-top: 30px;
+    font-size: xx-large;
+    color: white;
+}
+
+@keyframes TypingCursor {
+    0% {
+        border-right: 10px solid #1a1b1e;
+    }
+    10% {
+        border-right: 10px solid #1a1b1e;
+    }
+    20% {
+        border-right: 10px solid #1a1b1e;
+    }
+    30% {
+        border-right: 10px solid #1a1b1e;
+    }
+    40% {
+        border-right: 10px solid #1a1b1e;
+    }
+    50% {
+        border-right: 10px solid #1a1b1e;
+    }
+    60% {
+        border-right: 10px solid white;
+    }
+    70% {
+        border-right: 10px solid white;
+    }
+    80% {
+        border-right: 10px solid white;
+    }
+    90% {
+        border-right: 10px solid white;
+    }
+    100% {
+        border-right: 10px solid white;
+    }
+
+}
